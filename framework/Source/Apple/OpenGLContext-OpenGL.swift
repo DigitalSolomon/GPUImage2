@@ -1,4 +1,4 @@
-#if canImport(OpenGL)
+#if canImport(OpenGL) && !targetEnvironment(macCatalyst)
 
 import OpenGL.GL
 import Cocoa
